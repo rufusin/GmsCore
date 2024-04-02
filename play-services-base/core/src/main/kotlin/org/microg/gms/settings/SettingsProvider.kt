@@ -117,6 +117,7 @@ class SettingsProvider : ContentProvider() {
             CheckIn.VERSION_INFO -> checkInPrefs.getString(key, "") ?: ""
             CheckIn.DEVICE_DATA_VERSION_INFO -> checkInPrefs.getString(key, "") ?: ""
             CheckIn.HIDE_LAUNCHER_ICON -> getSettingsBoolean(key, true)
+            CheckIn.BRAND_SPOOF -> getSettingsBoolean(key, false)
             else -> throw IllegalArgumentException()
         }
     }
@@ -137,6 +138,10 @@ class SettingsProvider : ContentProvider() {
             if (key == CheckIn.HIDE_LAUNCHER_ICON) {
                 // special case: not saved in checkInPrefs
                 updateHideLauncherIcon(value as Boolean)
+            }
+            if (key == CheckIn.BRAND_SPOOF) {
+                // special case: not saved in checkInPrefs
+                updateSpoofingEnabled(value as Boolean)
             }
             when (key) {
                 CheckIn.ANDROID_ID -> editor.putLong(key, value as Long)
@@ -160,6 +165,12 @@ class SettingsProvider : ContentProvider() {
         preferences.edit()
                 .putBoolean(CheckIn.HIDE_LAUNCHER_ICON, enabled)
                 .apply()
+    }
+
+    private fun updateSpoofingEnabled(enabled: Boolean) {
+        preferences.edit()
+            .putBoolean(CheckIn.BRAND_SPOOF, enabled)
+            .apply()
     }
 
     private fun queryGcm(p: Array<out String>): Cursor = MatrixCursor(p).addRow(p) { key ->
