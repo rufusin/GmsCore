@@ -56,7 +56,7 @@
 \n
 \nSua identidade ou resultado de exames não serão compartilhados com outras pessoas.</string>
     <string name="exposure_confirm_keys_button">Compartilhar</string>
-    <string name="exposure_confirm_permission_description"><xliff:g example="microG Services">%1$s</xliff:g> precisa de permissões adicionais.</string>
+    <string name="exposure_confirm_permission_description"><xliff:g example="MicroG Services">%1$s</xliff:g> precisa de permissões adicionais.</string>
     <string name="exposure_confirm_permission_button">Conceder</string>
     <string name="exposure_confirm_bluetooth_description">Bluetooth precisa estar ativado.</string>
     <string name="exposure_confirm_location_description">Acesso a localização é necessário.</string>

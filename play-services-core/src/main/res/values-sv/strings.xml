@@ -97,7 +97,7 @@
     <string name="ask_scope_permission_title"><xliff:g example="F-Droid">%1$s</xliff:g> vill:</string>
     <string name="prefcat_push_apps_unregistered_title">Oregistrerade appar</string>
     <string name="self_check_resolution_perm_granted">Detta är en stark indikator på att din ROM stödjer signaturspoofing, men kräver ytterligare åtgärder för att aktivera den. Kontrollera dokumentationen om vilka åtgärder som kan krävas.</string>
-    <string name="gms_settings_name">microG-inställningar</string>
+    <string name="gms_settings_name">MicroG-inställningar</string>
     <string name="cond_gcm_bat_title">Batterioptimering aktiverad</string>
     <string name="pref_add_account_title">Konto</string>
     <string name="signin_subtext_policy">Innan du använder den här appen, granska dess %1$s och %2$s.</string>
@@ -110,20 +110,20 @@
     <string name="prefcat_push_apps_title">Appar som använder push-meddelanden</string>
     <string name="prefs_account">Kontoinställningar</string>
     <string name="self_check_pkg_gms">Play Services (GmsCore)</string>
-    <string name="lacking_permission_toast">microG-tjänster: Saknar behörighet att <xliff:g example="have full network acccess">%1$s</xliff:g></string>
+    <string name="lacking_permission_toast">MicroG-tjänster: Saknar behörighet att <xliff:g example="have full network acccess">%1$s</xliff:g></string>
     <string name="auth_notification_content"><xliff:g example="F-Droid">%1$s</xliff:g> kräver din autentisering för att komma åt ditt Google-konto.</string>
-    <string name="gms_app_name">microG-tjänster</string>
+    <string name="gms_app_name">MicroG-tjänster</string>
     <string name="self_check_name_perm_granted">Systemet ger signaturspoofingtillstånd:</string>
     <string name="auth_before_connect">En app på din enhet försöker logga in på ett Google-konto. \u0020Om detta var avsiktligt, använd knappen <b>Logga in</b> för att ansluta till Googles inloggningssida, om inte, tryck på <b>Avbryt</b> för att gå tillbaka till programmet som gjorde att den här dialogrutan dök upp.</string>
     <string name="self_check_name_battery_optimizations">Batterioptimering ignorerad:</string>
-    <string name="signin_subtext_sharing">För att fortsätta kommer microG att dela namn, e-postadress och profilbild för ditt Google-konto med <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
+    <string name="signin_subtext_sharing">För att fortsätta kommer MicroG att dela namn, e-postadress och profilbild för ditt Google-konto med <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
     <string name="auth_notification_title">Autentisering krävs</string>
     <string name="pref_auth_include_android_id_title">Autentisera med enhetsregistrering</string>
     <string name="pref_push_app_allow_register_title">Tillåt registrering</string>
     <string name="allow">Tillåt</string>
     <string name="prefs_account_security">Inloggning och säkerhet</string>
     <string name="pref_gcm_ping_interval">Pingintervall: <xliff:g example="10 minutes">%1$s</xliff:g></string>
-    <string name="gms_settings_summary">Konfigurera microG-tjänster.</string>
+    <string name="gms_settings_summary">Konfigurera MicroG-tjänster.</string>
     <string name="pref_add_account_summary">Lägg till Google-konto</string>
     <string name="self_check_resolution_fake_sig_perm">Din ROM har inget inhemskt stöd för signaturspoofing. Du kan fortfarande använda Xposed eller andra system för att spoofa signaturen. Kontrollera dokumentationen vilka ROM som stödjer signaturspoofing och hur man använder mikroG på ROM som inte gör det.</string>
     <string name="auth_finalize">Din enhet kontaktar Google för att spara information på ditt konto.
@@ -200,7 +200,7 @@
     <string name="pref_safetynet_recent_eval_type">Evalueringstyp</string>
     <string name="pref_vending_summary_licensing_on">Licensiering på</string>
     <string name="pref_vending_licensing_enable_switch">Svara på förfrågningar om licensverifiering</string>
-    <string name="pref_vending_license_enable_summary">Vissa appar kräver verifiering att du har köpt dem på Google Play. På begäran av en app kan microG ladda ner ett köpbevis från Google. Om det är inaktiverat, eller om inget Google-konto lagts till, ignoreras förfrågan om licensverifiering.</string>
+    <string name="pref_vending_license_enable_summary">Vissa appar kräver verifiering att du har köpt dem på Google Play. På begäran av en app kan MicroG ladda ner ett köpbevis från Google. Om det är inaktiverat, eller om inget Google-konto lagts till, ignoreras förfrågan om licensverifiering.</string>
     <string name="pref_vending_summary_licensing_off">Licensiering av</string>
     <string name="service_name_vending">Play Store-tjänster</string>
     <string name="feedback_disabled">Återkoppling är inte möjligt för närvarande</string>

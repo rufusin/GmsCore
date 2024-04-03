@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2013-2017 microG Project Team
+  ~ Copyright (C) 2013-2017 MicroG Project Team
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -14,8 +14,8 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">Служби microG</string>
-    <string name="gms_settings_name">Налаштування microG</string>
+    <string name="gms_app_name">Служби MicroG</string>
+    <string name="gms_settings_name">Налаштування MicroG</string>
     <string name="just_a_sec">Зачекайте трохи…</string>
     <string name="google_account_label">Google</string>
     <string name="ask_permission_tos">Продовжуючи, ви дозволяєте даному додатку та Google використовувати ваші дані згідно з їх відповідними умовами надання послуг та політикою конфіденційності.</string>
@@ -59,7 +59,7 @@
     <string name="place_picker_select_title">Оберіть місце-розташування</string>
     <string name="place_picker_nearby_places">Найближчі місця</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
-    <string name="lacking_permission_toast">microG Services: Відсутній дозвіл на <xliff:g example="have full network acccess">%1$s</xliff:g></string>
+    <string name="lacking_permission_toast">MicroG Services: Відсутній дозвіл на <xliff:g example="have full network acccess">%1$s</xliff:g></string>
     <string name="network_type_mobile">Мобільні мережі</string>
     <string name="network_type_wifi">Wi-Fi</string>
     <string name="network_type_roaming">Роумінг</string>
@@ -69,7 +69,7 @@
     <string name="self_check_cat_gms_packages">Встановлені додатки</string>
     <string name="self_check_cat_system">Система</string>
     <string name="self_check_name_fake_sig_perm">Підтримка системою підміни підпису:</string>
-    <string name="self_check_resolution_fake_sig_perm">Поточне програмне забезпечення пристрою не підтримує підміну підпису. Ви можете використовувати Xposed або інші методи підтримки підміни підпису. Будь ласка, перевірте документацію, де вказано яка система підтримує підміну підпису і як використовувати microG, якщо немає такої підтримки.</string>
+    <string name="self_check_resolution_fake_sig_perm">Поточне програмне забезпечення пристрою не підтримує підміну підпису. Ви можете використовувати Xposed або інші методи підтримки підміни підпису. Будь ласка, перевірте документацію, де вказано яка система підтримує підміну підпису і як використовувати MicroG, якщо немає такої підтримки.</string>
     <string name="self_check_name_perm_granted">Надання системою дозволу на підміну підпису:</string>
     <string name="self_check_resolution_perm_granted">Ваше програмне забезпечення пристрою підтримує підміну підпису, але потребує додаткової дії для її активації. Будь ласка, перевірте документацію, де вказано як це зробити.</string>
     <string name="self_check_name_system_spoofs">Підміна підпису системою:</string>
@@ -92,7 +92,7 @@
     <string name="prefcat_services">Сервіси</string>
     <string name="prefcat_test">Тест</string>
     <string name="cond_gcm_bat_title">Увімкнута оптимізація енергоспоживання</string>
-    <string name="cond_gcm_bat_summary">Ви увімкнули Cloud Messaging але лиши оптимізацію енергоспоживання активним для microG Services. Аби отримувати push-сповіщення необхідно вимкнути оптимізацію енергоспоживання.</string>
+    <string name="cond_gcm_bat_summary">Ви увімкнули Cloud Messaging але лиши оптимізацію енергоспоживання активним для MicroG Services. Аби отримувати push-сповіщення необхідно вимкнути оптимізацію енергоспоживання.</string>
     <string name="cond_gcm_bat_action">Ігнорувати оптимізацію</string>
     <string name="cond_perm_title">Відсутній дозвіл</string>
     <string name="prefs_account">Налаштування облікового запису</string>
@@ -110,7 +110,7 @@
     <string name="pref_gcm_confirm_new_apps_title">Підтверджувати нові додатки</string>
     <string name="pref_gcm_confirm_new_apps_summary">Запитувати перед реєстрацією нового додатку для отримання push-повідомлень</string>
     <string name="pref_gcm_ping_interval">Інтервал опитування: <xliff:g example="10 minutes">%1$s</xliff:g></string>
-    <string name="pref_about_title">Про microG Services</string>
+    <string name="pref_about_title">Про MicroG Services</string>
     <string name="pref_about_summary">Версія та використані бібліотеки</string>
     <string name="gcm_app_error_unregistering">Помилка відв\'язування</string>
     <string name="gcm_app_not_installed_anymore">Додаток вже не встановлено</string>
@@ -124,7 +124,7 @@
     <string name="gcm_unregister_confirm_message">Деякі додатки автоматично не прив\'язуються або/та не дозволяють зробити це вручну. Такі додатки можуть робити некоректно після відв\'язування.\nПродовжити?</string>
     <string name="gcm_unregister_after_deny_message">Ви заборонили додатку push-повідомлення, який вже був прив\'язаний.\nВи бажаєте відв\'язати його зараз, аби більше не отримувати від нього push-повідомлень?</string>
     <string name="gcm_messages_counter">Повідомлень: <xliff:g example="123">%1$d</xliff:g> (<xliff:g example="12345">%2$d</xliff:g> байт)</string>
-    <string name="safetynet_intro">Google SafetyNet це система сертифікації пристрою, яка гарантує, що пристрій коректно захищено та сумісне із Android CTS. Деякі додатки використовують SafetyNet для безпеки або в якості попередньої системи захисту від злому.\n\nmicroG GmsCore містить вільну реалізацію SafetyNet, але офіційний сервер вимагає, аби запити були підписані за допомогою закритої програмної системи DroidGuard.</string>
+    <string name="safetynet_intro">Google SafetyNet це система сертифікації пристрою, яка гарантує, що пристрій коректно захищено та сумісне із Android CTS. Деякі додатки використовують SafetyNet для безпеки або в якості попередньої системи захисту від злому.\n\nMicroG GmsCore містить вільну реалізацію SafetyNet, але офіційний сервер вимагає, аби запити були підписані за допомогою закритої програмної системи DroidGuard.</string>
     <string name="pref_safetynet_test_title">Протестувати SafetyNet перевірку</string>
     <string name="pref_droidguard_operation_mode">Режим роботи</string>
     <string name="pref_device_registration_import_custom_profile_title">Імпортувати користувацький профіль</string>
@@ -157,7 +157,7 @@
     <string name="push_notifications_summary_manual">ВВІМК / Вручну: %s</string>
     <string name="profile_name_auto">Автоматичний: %s</string>
     <string name="push_notifications_summary_values_minutes">%s хв</string>
-    <string name="perm_provision_label">надання послуг microG</string>
+    <string name="perm_provision_label">надання послуг MicroG</string>
     <string name="gcm_network_state_connected">З\'єднано з <xliff:g example="2 hours ago">%1$s</xliff:g></string>
     <string name="pref_auth_include_android_id_summary">Якщо вимкнено, запити на автентифікацію не будуть пов\'язані з реєстрацією пристрою, що дозволяє несанкціонованим пристроям входити в обліковий запис, але може мати непередбачені наслідки.</string>
     <string name="signin_picker_subtitle">, щоб продовжити в <xliff:g example="F-Droid">%1$s</xliff:g></string>
@@ -168,7 +168,7 @@
     <string name="pref_safetynet_recent_nonce">Одноразовий код (Hex)</string>
     <string name="safetynet_last_run_at">Останнє використання: <xliff:g example="Yesterday, 02:20 PM">%1$s</xliff:g></string>
     <string name="pref_push_app_wake_for_delivery_title">Запустити застосунок при push-повідомленнях</string>
-    <string name="perm_provision_description">Дозволяє застосунку налаштовувати служби microG без взаємодії з користувачем</string>
+    <string name="perm_provision_description">Дозволяє застосунку налаштовувати служби MicroG без взаємодії з користувачем</string>
     <string name="pref_safetynet_recent_recaptcha_summary">ReCaptcha: %s</string>
     <string name="gcm_enable_switch">Отримувати push-сповіщення</string>
     <string name="pref_test_summary_passed">Пройдено всі тести</string>
@@ -192,13 +192,13 @@
     <string name="prefcat_push_apps_title">Застосунки, що використовують push-сповіщення</string>
     <string name="profile_name_user">Власний: %s</string>
     <string name="pref_recaptcha_test_title">Тест ReCAPTCHA</string>
-    <string name="signin_subtext_sharing">Щоб продовжити, microG буде ділитися ім\'ям, адресою пошти та зображенням профілю вашого облікового запису Google з <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
+    <string name="signin_subtext_sharing">Щоб продовжити, MicroG буде ділитися ім\'ям, адресою пошти та зображенням профілю вашого облікового запису Google з <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
     <string name="pref_auth_include_android_id_title">Автентифікація за допомогою реєстрації пристрою</string>
     <string name="pref_push_app_allow_register_title">Дозволити реєстрацію</string>
     <string name="profile_name_native">Нативний</string>
     <string name="pref_test_summary_running">Запуск…</string>
     <string name="pref_safetynet_recent_cat_basic">Основні дані</string>
-    <string name="gms_settings_summary">Налаштування служб microG.</string>
+    <string name="gms_settings_summary">Налаштування служб MicroG.</string>
     <string name="pref_add_account_summary">Додати обліковий запис Google</string>
     <string name="profile_name_system">Системний: %s</string>
     <string name="pref_safetynet_recent_cat_response">Дані відповіді</string>
@@ -213,7 +213,7 @@
     <string name="pref_safetynet_recent_eval_type">Тип оцінки</string>
     <string name="pref_vending_summary_licensing_on">Ліцензування ввімкнено</string>
     <string name="pref_vending_licensing_enable_switch">Відповідати на запити перевірки ліцензії</string>
-    <string name="pref_vending_license_enable_summary">Деякі застосунки вимагають підтвердження того, що ви придбали їх у Google Play. На запит застосунку microG може завантажити підтвердження покупки з Google. Якщо цю функцію вимкнено або якщо обліковий запис Google не додано, запити на перевірку ліцензії ігноруються.</string>
+    <string name="pref_vending_license_enable_summary">Деякі застосунки вимагають підтвердження того, що ви придбали їх у Google Play. На запит застосунку MicroG може завантажити підтвердження покупки з Google. Якщо цю функцію вимкнено або якщо обліковий запис Google не додано, запити на перевірку ліцензії ігноруються.</string>
     <string name="pref_vending_summary_licensing_off">Ліцензування вимкнено</string>
     <string name="service_name_vending">Служби Play Store</string>
     <string name="perm_car_speed_label">Швидкість машини</string>

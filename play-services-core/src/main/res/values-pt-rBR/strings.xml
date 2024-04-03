@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2013-2017 microG Project Team
+  ~ Copyright (C) 2013-2017 MicroG Project Team
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -14,8 +14,8 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">Serviços microG</string>
-    <string name="gms_settings_name">Configurações do microG</string>
+    <string name="gms_app_name">Serviços MicroG</string>
+    <string name="gms_settings_name">Configurações do MicroG</string>
     <string name="just_a_sec">Aguarde um momento…</string>
     <string name="google_account_label">Google</string>
     <string name="ask_permission_tos">Ao continuar, você permite que este aplicativo e o Google usem suas informações de acordo com seus respectivos termos de serviço e políticas de privacidade.</string>
@@ -51,7 +51,7 @@ Isso pode demorar alguns minutos."</string>
     <string name="place_picker_select_title">Selecione esta localização</string>
     <string name="place_picker_nearby_places">Locais próximos</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
-    <string name="lacking_permission_toast">Serviços microG: Sem permissão para <xliff:g example="have full network acccess">%1$s</xliff:g></string>
+    <string name="lacking_permission_toast">Serviços MicroG: Sem permissão para <xliff:g example="have full network acccess">%1$s</xliff:g></string>
     <string name="network_type_mobile">Rede móvel</string>
     <string name="network_type_wifi">Wi-Fi</string>
     <string name="network_type_roaming">Roaming</string>
@@ -62,7 +62,7 @@ Isso pode demorar alguns minutos."</string>
     <string name="self_check_cat_gms_packages">Pacotes instalados</string>
     <string name="self_check_cat_system">Sistema</string>
     <string name="self_check_name_fake_sig_perm">O sistema possui suporte a spoofing de assinatura: </string>
-    <string name="self_check_resolution_fake_sig_perm">Sua ROM não tem suporte nativo para o spoofing de assinaturas. Você ainda pode usar Xposed ou outros sistemas para fazer spoof da assinatura. Verifique a documentação sobre quais ROMs suportam spoofing de assinaturas e como usar microG em ROMs que não tem esse suporte.</string>
+    <string name="self_check_resolution_fake_sig_perm">Sua ROM não tem suporte nativo para o spoofing de assinaturas. Você ainda pode usar Xposed ou outros sistemas para fazer spoof da assinatura. Verifique a documentação sobre quais ROMs suportam spoofing de assinaturas e como usar MicroG em ROMs que não tem esse suporte.</string>
     <string name="self_check_name_perm_granted">O sistema concede permissão de spoofing de assinatura: </string>
     <string name="self_check_resolution_perm_granted">Este é um forte indicador de que a ROM suporta spoofing de assinaturas, mas requer mais ação para ativá-la. Verifique a documentação sobre quais etapas podem ser necessárias.</string>
     <string name="self_check_name_system_spoofs">Sistema faz spoof da assinatura:</string>
@@ -91,14 +91,14 @@ Isso pode demorar alguns minutos."</string>
     <string name="prefs_account_security">Login &amp; segurança</string>
     <string name="pref_auth_trust_google_title">Confie no Google para permissões de aplicativo</string>
     <string name="pref_auth_trust_google_summary">Quando desabilitado, o usuário é solicitado antes que uma solicitação de autorização de um app seja enviada ao Google. Algumas aplicações deixarão de utilizar a Conta Google se isto estiver desativado.</string>
-    <string name="pref_checkin_enable_summary">Registra seu dispositivo nos serviços do Google e cria um identificador de dispositivo único. O microG remove informações que podem te identificar, exceto o nome da sua conta Google, dos dados do seu registro.</string>
+    <string name="pref_checkin_enable_summary">Registra seu dispositivo nos serviços do Google e cria um identificador de dispositivo único. O MicroG remove informações que podem te identificar, exceto o nome da sua conta Google, dos dados do seu registro.</string>
     <string name="pref_gcm_enable_mcs_summary">As Mensagens pela Nuvem (Cloud Messaging) é um provedor de notificação push usado por muitos aplicativos de terceiros. Para usá-lo, você deve ativar o registro do dispositivo.</string>
     <string name="pref_gcm_heartbeat_title">Intervalo do heartbeat do Cloud Messaging</string>
     <string name="pref_gcm_heartbeat_summary">O intervalo em segundos para o sistema a checar os servidores do Google. Aumentar esse número reduzirá o consumo da bateria, mas poderá causar atrasos nas mensagens push.
 \nDepreciado, será substituído em versão futura.</string>
     <string name="pref_gcm_apps_title">Aplicativos que usam o Cloud Messaging</string>
     <string name="pref_gcm_apps_summary">Lista de apps atualmente registrados no Cloud Messaging.</string>
-    <string name="pref_about_title">Sobre serviços microG</string>
+    <string name="pref_about_title">Sobre serviços MicroG</string>
     <string name="pref_about_summary">Informações de versão e bibliotecas usadas</string>
     <string name="gcm_app_error_unregistering">Erro removendo o registro</string>
     <string name="gcm_app_not_installed_anymore">Não está mais instalado</string>
@@ -165,10 +165,10 @@ Isso pode demorar alguns minutos."</string>
     <string name="pref_vending_licensing_enable_switch">Responder solicitações de verificação de liçença</string>
     <string name="signin_picker_subtitle">para continuar para <xliff:g example="F-Droid">%1$s</xliff:g></string>
     <string name="signin_confirm_title">Permitir fazer login ao <xliff:g example="F-Droid">%1$s</xliff:g></string>
-    <string name="signin_subtext_sharing">Para continuar, o microG irá compartilhar nome, endereço de email, e foto de perfil de sua conta Google com <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
+    <string name="signin_subtext_sharing">Para continuar, o MicroG irá compartilhar nome, endereço de email, e foto de perfil de sua conta Google com <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
     <string name="feedback_disabled">Feedback atualmente não possível</string>
     <string name="auth_before_connect">Um app no seu dispositivo está tentando fazer login numa conta Google. \u0020Se isso for intencional, use o botão <b>Fazer login</b> para se conectar a pagina de login do Google, se não, clique em <b>Cancelar</b> para voltar para o app que fez com que esse diálogo aparecesse.</string>
-    <string name="perm_provision_label">provisionar serviços microG</string>
+    <string name="perm_provision_label">provisionar serviços MicroG</string>
     <string name="service_name_snet">SafetyNet do Google</string>
     <string name="prefcat_google_services">Serviços do Google</string>
     <string name="pref_gcm_confirm_new_apps_summary">Perguntar antes de registrar um novo app para receber notificações push</string>
@@ -184,7 +184,7 @@ Isso pode demorar alguns minutos."</string>
     <string name="pref_recaptcha_test_title">Testar reCAPTCHA</string>
     <string name="safetynet_intro">SafetyNet do Google é um sistema de certificação de dispositivo, confirmando que um dispositivo é devidamente protegido e compatível com o CTS do Android. Alguns apps usam o SafetyNet para motivos de segurança ou um pré-requisito para proteção contra intervenção.
 \n
-\nmicroG GmsCore contém uma implementação aberta do SafetyNet, porém o servidor oficial requer que pedidos do SafetyNet sejam assinados usando o sistema proprietário DroidGuard.</string>
+\nMicroG GmsCore contém uma implementação aberta do SafetyNet, porém o servidor oficial requer que pedidos do SafetyNet sejam assinados usando o sistema proprietário DroidGuard.</string>
     <string name="pref_recaptcha_enterprise_test_title">Testar reCAPTCHA Empresarial</string>
     <string name="pref_test_summary_running">Rodando…</string>
     <string name="pref_droidguard_unsupported_summary">Execução do DroidGuard não é suportada nesse dispositivo. Serviços do SafetyNet podem se comportar mal.</string>
@@ -197,8 +197,8 @@ Isso pode demorar alguns minutos."</string>
     <string name="pref_safetynet_recent_copy_json">Copiar dados JSON JWS</string>
     <string name="pref_safetynet_recent_advice">Dica</string>
     <string name="pref_safetynet_recent_eval_type">Tipo de avaliação</string>
-    <string name="pref_vending_license_enable_summary">Alguns apps requerem verificação que você comprou eles na Play Store. Quando solicitado por um app, o microG pode baixar uma prova de compra do Google. Se desativado, ou se nenhuma conta Google foi adicionada, solicitações de licença são ignoradas.</string>
-    <string name="gms_settings_summary">Configurar serviços microG.</string>
+    <string name="pref_vending_license_enable_summary">Alguns apps requerem verificação que você comprou eles na Play Store. Quando solicitado por um app, o MicroG pode baixar uma prova de compra do Google. Se desativado, ou se nenhuma conta Google foi adicionada, solicitações de licença são ignoradas.</string>
+    <string name="gms_settings_summary">Configurar serviços MicroG.</string>
     <string name="auth_sign_in">Fazer login</string>
     <string name="auth_connecting">Seu dispositivo está estabelecendo uma conexão aos servidores do Google para te logar.
 \n
@@ -210,7 +210,7 @@ Isso pode demorar alguns minutos."</string>
     <string name="signin_subtext_policy_privacy">política de privacidade</string>
     <string name="signin_subtext_policy_terms">termos de uso</string>
     <string name="perm_gsf_read_gservices_label">ler configuração de serviço Google</string>
-    <string name="perm_provision_description">Permite que o app configure serviços microG sem interação do usuário</string>
+    <string name="perm_provision_description">Permite que o app configure serviços MicroG sem interação do usuário</string>
     <string name="pref_safetynet_recent_cat_basic">Dados básicos</string>
     <string name="pref_safetynet_recent_token">Token</string>
     <string name="pref_safetynet_test_invalid_json">JSON inválido</string>

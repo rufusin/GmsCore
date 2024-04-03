@@ -59,7 +59,7 @@
 \n
 \nIdentitatea sau rezultatul testului nu vor fi partajate altor persoane.</string>
     <string name="exposure_grant_background_location_description">Aproape gata! Va trebui să activezi accesul la locația de fundal selectând opțiunea „Permite tot timpul” pe ecranul următor. Apoi apasă înapoi.</string>
-    <string name="exposure_confirm_permission_description"><xliff:g example="microG Services">%1$s</xliff:g> necesită permisiuni suplimentare.</string>
+    <string name="exposure_confirm_permission_description"><xliff:g example="MicroG Services">%1$s</xliff:g> necesită permisiuni suplimentare.</string>
     <string name="exposure_confirm_bluetooth_description">Bluetooth trebuie să fie activat.</string>
     <string name="exposure_confirm_location_description">Este necesar accesul la locație.</string>
     <string name="pref_exposure_error_nearby_not_granted_title">Sunt necesare permisiuni noi</string>

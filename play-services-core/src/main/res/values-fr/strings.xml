@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2013-2017 microG Project Team
+  ~ Copyright (C) 2013-2017 MicroG Project Team
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -14,8 +14,8 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">microG Services</string>
-    <string name="gms_settings_name">Paramètres de microG</string>
+    <string name="gms_app_name">MicroG Services</string>
+    <string name="gms_settings_name">Paramètres de MicroG</string>
     <string name="just_a_sec">Juste une seconde…</string>
     <string name="google_account_label">Google</string>
     <string name="ask_permission_tos">En poursuivant, vous autorisez cette application et Google à utiliser vos informations en accord avec leurs termes de service et politiques de vie privée respectifs.</string>
@@ -52,7 +52,7 @@ Ceci peut prendre plusieurs minutes."</string>
     <string name="place_picker_select_title">Sélectionner cette position</string>
     <string name="place_picker_nearby_places">Lieux environnants.</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
-    <string name="lacking_permission_toast">microG Services: La permission <xliff:g example="have full network acccess">%1$s</xliff:g> est manquante.</string>
+    <string name="lacking_permission_toast">MicroG Services: La permission <xliff:g example="have full network acccess">%1$s</xliff:g> est manquante.</string>
     <string name="network_type_mobile">Réseau mobile</string>
     <string name="network_type_wifi">Wi-Fi</string>
     <string name="network_type_roaming">Roaming</string>
@@ -63,7 +63,7 @@ Ceci peut prendre plusieurs minutes."</string>
     <string name="self_check_cat_gms_packages">Paquets installés</string>
     <string name="self_check_cat_system">Système</string>
     <string name="self_check_name_fake_sig_perm">Le système supporte l’usurpation de signature : </string>
-    <string name="self_check_resolution_fake_sig_perm">Votre ROM ne supporte pas nativement l’usurpation de signature. Vous pouvez néanmoins utiliser Xposed ou d’autres mécanismes pour usurper les signatures. Merci de consulter la documentation sur les ROMs supportant l’usurpation de signature et comment utiliser microG sur les autres.</string>
+    <string name="self_check_resolution_fake_sig_perm">Votre ROM ne supporte pas nativement l’usurpation de signature. Vous pouvez néanmoins utiliser Xposed ou d’autres mécanismes pour usurper les signatures. Merci de consulter la documentation sur les ROMs supportant l’usurpation de signature et comment utiliser MicroG sur les autres.</string>
     <string name="self_check_name_perm_granted">Le système autorise l’usurpation de signature : </string>
     <string name="self_check_resolution_perm_granted">C’est une indication forte que la ROM supporte l’usurpation de signature mais que celle-ci requiert une action supplémentaire pour être activée. Merci de consulter la documentation sur les éventuelles étapes nécessaires.</string>
     <string name="self_check_name_system_spoofs">Le système usurpe la signature : </string>
@@ -87,7 +87,7 @@ Ceci peut prendre plusieurs minutes."</string>
     <string name="prefcat_services">Services</string>
     <string name="prefcat_test">Test</string>
     <string name="cond_gcm_bat_title">Optimisations de la batterie activées</string>
-    <string name="cond_gcm_bat_summary">Vous avez activé Cloud Messaging mais l’optimisation de la batterie est activée pour microG Services. Afin de recevoir les notifications push vous devriez désactiver les optimisations de la batterie.</string>
+    <string name="cond_gcm_bat_summary">Vous avez activé Cloud Messaging mais l’optimisation de la batterie est activée pour MicroG Services. Afin de recevoir les notifications push vous devriez désactiver les optimisations de la batterie.</string>
     <string name="cond_gcm_bat_action">Désactiver les optimisations de la batterie</string>
     <string name="cond_perm_title">Autorisations manquantes</string>
     <string name="prefs_account">Préférences du compte</string>
@@ -95,7 +95,7 @@ Ceci peut prendre plusieurs minutes."</string>
     <string name="prefs_account_security">Connexion &amp; sécurité</string>
     <string name="pref_auth_trust_google_title">Faire confiance à Google pour les autorisations des applications</string>
     <string name="pref_auth_trust_google_summary">Si désactivé, l’utilisateur est interrogé avant que la demande d’autorisation d’une application soit envoyée à Google. Certaines applications échoueront à utiliser le compte Google si ceci est désactivé.</string>
-    <string name="pref_checkin_enable_summary">Enregistre votre terminal auprès des services Google et crée un identifiant unique. microG retire les identifiants autres que le nom de votre compte Google des informations d’enregistrement.</string>
+    <string name="pref_checkin_enable_summary">Enregistre votre terminal auprès des services Google et crée un identifiant unique. MicroG retire les identifiants autres que le nom de votre compte Google des informations d’enregistrement.</string>
     <string name="pref_more_settings">Plus</string>
     <string name="pref_gcm_enable_mcs_summary">Cloud Messaging est un fournisseur de notifications push utilisé par beaucoup d’applications tierces. Pour l’utiliser vous devez activer l’enregistrement du terminal.</string>
     <string name="pref_gcm_heartbeat_title">Intervalle des signaux de présence Cloud Messaging</string>
@@ -105,7 +105,7 @@ Ceci peut prendre plusieurs minutes."</string>
     <string name="pref_gcm_confirm_new_apps_title">Confirmation pour les nouvelles applications</string>
     <string name="pref_gcm_confirm_new_apps_summary">Demander avant d’enregistrer une nouvelle application auprès de Cloud Messaging</string>
     <string name="pref_gcm_ping_interval">Intervalle de ping : <xliff:g example="10 minutes">%1$s</xliff:g></string>
-    <string name="pref_about_title">À propos de microG Services</string>
+    <string name="pref_about_title">À propos de MicroG Services</string>
     <string name="pref_about_summary">Informations de version et librairies utilisées</string>
     <string name="gcm_app_error_unregistering">Erreur lors du désenregistrement</string>
     <string name="gcm_app_not_installed_anymore">Cette application n’est plus installée</string>
@@ -121,7 +121,7 @@ Ceci peut prendre plusieurs minutes."</string>
     <string name="gcm_messages_counter">Messages : <xliff:g example="123">%1$d</xliff:g> (<xliff:g example="12345">%2$d</xliff:g> octets)</string>
     <string name="gcm_network_state_disconnected">Déconnecté</string>
     <string name="gcm_network_state_connected">Connecté depuis <xliff:g example="2 hours ago">%1$s</xliff:g></string>
-    <string name="safetynet_intro">Google SafetyNet est un système de certification du terminal, assurant que celui-ci est correctement sécurisé et compatible avec Android CTS. Certaines applications utilisent SafetyNet pour des raisons de sécurité ou comme prérequis anti-altérations.\n\nmicroG GmsCore contient une implantation libre de SafetyNet, mais les serveurs officiels requièrent que les requêtes SafetyNet soient signées par le système propriétaire DroidGuard.</string>
+    <string name="safetynet_intro">Google SafetyNet est un système de certification du terminal, assurant que celui-ci est correctement sécurisé et compatible avec Android CTS. Certaines applications utilisent SafetyNet pour des raisons de sécurité ou comme prérequis anti-altérations.\n\nMicroG GmsCore contient une implantation libre de SafetyNet, mais les serveurs officiels requièrent que les requêtes SafetyNet soient signées par le système propriétaire DroidGuard.</string>
     <string name="pref_safetynet_test_title">Tester la certification SafetyNet</string>
     <string name="pref_droidguard_operation_mode">Mode d’opération</string>
 </resources>

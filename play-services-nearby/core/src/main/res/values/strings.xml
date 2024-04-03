@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~ SPDX-FileCopyrightText: 2020, microG Project Team
+  ~ SPDX-FileCopyrightText: 2020, MicroG Project Team
   ~ SPDX-License-Identifier: Apache-2.0
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -65,7 +65,7 @@ The date, duration, and signal strength associated with an exposure will be shar
 
 Your identity or test result won&apos;t be shared with other people."</string>
     <string name="exposure_confirm_keys_button">Share</string>
-    <string name="exposure_confirm_permission_description"><xliff:g example="microG Services">%1$s</xliff:g> needs additional permissions.</string>
+    <string name="exposure_confirm_permission_description"><xliff:g example="MicroG Services">%1$s</xliff:g> needs additional permissions.</string>
     <string name="exposure_confirm_permission_button">Grant</string>
     <string name="exposure_confirm_bluetooth_description">Bluetooth needs to be enabled.</string>
     <string name="exposure_confirm_location_description">Location access is required.</string>

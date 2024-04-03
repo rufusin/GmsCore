@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2013-2017 microG Project Team
+  ~ Copyright (C) 2013-2017 MicroG Project Team
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -14,8 +14,8 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">Servicii microG</string>
-    <string name="gms_settings_name">Setări microG</string>
+    <string name="gms_app_name">Servicii MicroG</string>
+    <string name="gms_settings_name">Setări MicroG</string>
     <string name="just_a_sec">Doar o secundă…</string>
     <string name="google_account_label">Google</string>
     <string name="ask_permission_tos">Continuând, permiți acestei aplicații și Google să utilizeze informațiile tale în conformitate cu condițiile de utilizare și politicile de confidențialitate ale lor.</string>
@@ -44,7 +44,7 @@
     <string name="prefcat_services">Servicii de fundal</string>
     <string name="pref_auth_trust_google_title">Ai încredere în Google pentru permisiunile aplicației</string>
     <string name="pref_auth_trust_google_summary">Când este dezactivată, utilizatorul este întrebat înainte ca cererea de autorizare a unei aplicații să fie trimisă la Google. Unele aplicații nu vor reuși să utilizeze contul Google, dacă această opțiune este dezactivată.</string>
-    <string name="pref_checkin_enable_summary">\"Înregistrarea dispozitivului\" este un proces ascuns care este utilizat pentru a crea un identificator unic pentru serviciile Google. Serviciile microG înlătură alte date de identificare cu excepția numelui contului dvs. Google.</string>
+    <string name="pref_checkin_enable_summary">\"Înregistrarea dispozitivului\" este un proces ascuns care este utilizat pentru a crea un identificator unic pentru serviciile Google. Serviciile MicroG înlătură alte date de identificare cu excepția numelui contului dvs. Google.</string>
     <string name="pref_gcm_enable_mcs_summary">Mesageria Google Cloud este un furnizor de notificări de tip push utilizat de multe aplicații. Pentru a utiliza trebuie să activezi \"Înregistrarea dispozitivului\".</string>
     <string name="auth_sign_in">Conectare</string>
     <string name="signin_picker_title">Alege un cont</string>
@@ -56,7 +56,7 @@
 \nAcest lucru poate dura câteva secunde.</string>
     <string name="signin_confirm_button_text">Permite și distribuie</string>
     <string name="auth_before_connect">O aplicație de pe dispozitivul tău încearcă să se conecteze la un cont Google. \u0020Dacă acest lucru a fost intenționat, utilizează butonul <b>Conectare</b> pentru a te conecta la pagina de conectare Google, dacă nu, apasă <b>Anulare</b> pentru a reveni la aplicația care a generat acest dialog.</string>
-    <string name="gms_settings_summary">Configurează serviciile microG.</string>
+    <string name="gms_settings_summary">Configurează serviciile MicroG.</string>
     <string name="pref_device_registration_import_custom_profile_title">Importă profil personalizat</string>
     <string name="pref_safetynet_recent_request_type">Tipul solicitării</string>
     <string name="pref_recaptcha_enterprise_test_title">Testează ReCAPTCHA Enterprise</string>
@@ -67,14 +67,14 @@
 \nÎnvechit, va fi modificat în următoarea ediție.</string>
     <string name="checkin_last_registration">Ultima înregistrare: <xliff:g example="Yesterday, 02:20 PM">%1$s</xliff:g></string>
     <string name="gcm_no_message_yet">Nu s-a primit niciun mesaj până acum</string>
-    <string name="pref_about_title">Despre serviciile microG</string>
+    <string name="pref_about_title">Despre serviciile MicroG</string>
     <string name="signin_subtext_policy_privacy">politica de confidențialitate</string>
     <string name="pick_place_title">Alege un loc</string>
     <string name="games_info_content">Pentru a utiliza Jocuri Play, este necesar să instalezi aplicația Jocuri Google Play. Aplicația poate continua fără Jocuri Play, dar este posibil să se comporte neașteptat.</string>
     <string name="pref_safetynet_test_no_result">Nici un rezultat</string>
     <string name="safetynet_intro">Google SafetyNet este un sistem de certificare a dispozitivului, care asigură că dispozitivul este securizat corespunzător și compatibil cu Android CTS. Unele aplicații folosesc SafetyNet din motive de securitate sau ca o condiție prealabilă pentru protecția împotriva manipulărilor.
 \n
-\nmicroG GmsCore conține o implementare gratuită a SafetyNet, dar serverul oficial necesită ca cererile SafetyNet să fie semnate folosind sistemul proprietar DroidGuard.</string>
+\nMicroG GmsCore conține o implementare gratuită a SafetyNet, dar serverul oficial necesită ca cererile SafetyNet să fie semnate folosind sistemul proprietar DroidGuard.</string>
     <string name="gcm_unregister_after_deny_message">Ai refuzat înregistrarea unei aplicații pentru notificări push care este deja înregistrată.
 \nDorești să anulezi acum, astfel încât să nu mai primească mesaje push în viitor\?</string>
     <string name="self_check_resolution_correct_sig">Fie aplicația <xliff:g example="F-Droid">%1$s</xliff:g> nu este compatibilă, sau falsificarea semnăturii nu este activă pentru aceasta. Verifică documentația despre ce aplicații și ROM-uri sunt compatibile.</string>
@@ -112,7 +112,7 @@
     <string name="push_notifications_summary_manual">PORNIT / Manual: %s</string>
     <string name="profile_name_auto">Automat: %s</string>
     <string name="push_notifications_summary_values_minutes">%s minute</string>
-    <string name="perm_provision_label">furnizarea de servicii microG</string>
+    <string name="perm_provision_label">furnizarea de servicii MicroG</string>
     <string name="service_name_snet">Google SafetyNet</string>
     <string name="self_check_cat_system">Sistem</string>
     <string name="pick_place_desc">Selectorul de locuri nu este încă disponibil.</string>
@@ -134,7 +134,7 @@
     <string name="cond_gcm_bat_action">Ignoră optimizările</string>
     <string name="pref_about_summary">Informații despre versiune și biblioteci utilizate</string>
     <string name="place_picker_select_title">Selectează această locație</string>
-    <string name="perm_provision_description">Permite aplicației să configureze servicii microG fără interacțiunea utilizatorului</string>
+    <string name="perm_provision_description">Permite aplicației să configureze servicii MicroG fără interacțiunea utilizatorului</string>
     <string name="pref_safetynet_recent_recaptcha_summary">ReCaptcha: %s</string>
     <string name="gcm_enable_switch">Primește notificări push</string>
     <string name="perm_extended_access_label">Acces extins la serviciile Google</string>
@@ -142,7 +142,7 @@
     <string name="pref_test_summary_passed">Toate testele au trecut</string>
     <string name="push_notifications_summary_off">OPRIT</string>
     <string name="self_check_cat_gms_packages">Pachete instalate</string>
-    <string name="cond_gcm_bat_summary">Ai activat Mesageria Cloud, dar optimizarea bateriei este activată pentru serviciile microG. Pentru ca notificările push să ajungă, ar trebui să dezactivezi optimizarea bateriei.</string>
+    <string name="cond_gcm_bat_summary">Ai activat Mesageria Cloud, dar optimizarea bateriei este activată pentru serviciile MicroG. Pentru ca notificările push să ajungă, ar trebui să dezactivezi optimizarea bateriei.</string>
     <string name="pref_info_status">Stare</string>
     <string name="gcm_allow_app_popup">Permiți ca <xliff:g example="F-Droid">%1$s</xliff:g> să se înregistreze pentru notificări push\?</string>
     <string name="games_title">Jocuri Google Play</string>
@@ -179,12 +179,12 @@
     <string name="prefcat_push_apps_title">Aplicații ce folosesc notificări push</string>
     <string name="prefs_account">Preferințele contului</string>
     <string name="self_check_pkg_gms">Servicii Play (GmsCore)</string>
-    <string name="lacking_permission_toast">Serviciile microG: Lipsește permisiunea <xliff:g example="have full network acccess">%1$s</xliff:g></string>
+    <string name="lacking_permission_toast">Serviciile MicroG: Lipsește permisiunea <xliff:g example="have full network acccess">%1$s</xliff:g></string>
     <string name="profile_name_user">Personalizat: %s</string>
     <string name="self_check_name_perm_granted">Sistemul acceptă falsificarea semnăturii:</string>
     <string name="self_check_name_battery_optimizations">Optimizarea bateriei este dezactivată:</string>
     <string name="pref_recaptcha_test_title">Testează ReCAPTCHA</string>
-    <string name="signin_subtext_sharing">Pentru a continua, microG va distribui numele, adresa de e-mail și fotografia de profil a Contului tău Google <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
+    <string name="signin_subtext_sharing">Pentru a continua, MicroG va distribui numele, adresa de e-mail și fotografia de profil a Contului tău Google <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
     <string name="pref_auth_include_android_id_title">Autentificare cu înregistrarea dispozitivului</string>
     <string name="pref_push_app_allow_register_title">Permite înregistrarea</string>
     <string name="profile_name_native">Nativ</string>
@@ -193,7 +193,7 @@
     <string name="pref_test_summary_running">Rulează…</string>
     <string name="pref_safetynet_recent_cat_basic">Date de bază</string>
     <string name="pref_add_account_summary">Adaugă un cont Google</string>
-    <string name="self_check_resolution_fake_sig_perm">ROM-ul nu are suport nativ pentru falsificarea semnăturilor. Poți utiliza în continuare Xposed sau alte sisteme pentru a falsifica semnătura. Verifică documentația despre care ROM-uri acceptă falsificarea semnăturilor și cum să utilizezi microG pe ROM-urile care nu o acceptă.</string>
+    <string name="self_check_resolution_fake_sig_perm">ROM-ul nu are suport nativ pentru falsificarea semnăturilor. Poți utiliza în continuare Xposed sau alte sisteme pentru a falsifica semnătura. Verifică documentația despre care ROM-uri acceptă falsificarea semnăturilor și cum să utilizezi MicroG pe ROM-urile care nu o acceptă.</string>
     <string name="profile_name_system">Sistem: %s</string>
     <string name="cond_perm_title">Lipsește permisiunea</string>
     <string name="pref_safetynet_recent_cat_response">Datele de răspuns</string>
@@ -216,7 +216,7 @@
     <string name="pref_vending_summary_licensing_off">Licențiere oprită</string>
     <string name="pref_vending_summary_licensing_on">Licențiere pornită</string>
     <string name="pref_vending_licensing_enable_switch">Răspunde la solicitările de verificare a licenței</string>
-    <string name="pref_vending_license_enable_summary">Unele aplicații necesită verificarea faptului că le-ai achiziționat de pe Google Play. Când este solicitat de o aplicație, microG poate descărca o dovadă de achiziție de la Google. Dacă este dezactivat sau dacă nu este adăugat niciun cont Google, solicitările de verificare a licenței sunt ignorate.</string>
+    <string name="pref_vending_license_enable_summary">Unele aplicații necesită verificarea faptului că le-ai achiziționat de pe Google Play. Când este solicitat de o aplicație, MicroG poate descărca o dovadă de achiziție de la Google. Dacă este dezactivat sau dacă nu este adăugat niciun cont Google, solicitările de verificare a licenței sunt ignorate.</string>
     <string name="feedback_disabled">Momentan, feedback-ul nu este posibil</string>
     <string name="perm_car_info_label">Informații despre automobil</string>
     <string name="perm_car_fuel_label">Nivelul combustibilului în automobil</string>

@@ -8,7 +8,7 @@
     <string name="service_status_enabled">Aktiverad</string>
     <string name="open_app">Öppna</string>
     <string name="foreground_service_notification_text"><xliff:g example="Exposure Notification">%1$s</xliff:g> körs i bakgrunden.</string>
-    <string name="foreground_service_notification_big_text">Exkludera <xliff:g example="microG Services">%1$s</xliff:g> från batterioptimering eller ändra aviseringsinställningar för att dölja detta meddelande.</string>
+    <string name="foreground_service_notification_big_text">Exkludera <xliff:g example="MicroG Services">%1$s</xliff:g> från batterioptimering eller ändra aviseringsinställningar för att dölja detta meddelande.</string>
     <string name="list_item_see_all">Se alla</string>
     <string name="service_status_disabled_short">Av</string>
     <string name="list_no_item_none">Ingen</string>

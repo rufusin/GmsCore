@@ -8,7 +8,7 @@
     <string name="service_status_enabled">Activat</string>
     <string name="open_app">Deschide</string>
     <string name="foreground_service_notification_text"><xliff:g example="Exposure Notification">%1$s</xliff:g> rulează în fundal.</string>
-    <string name="foreground_service_notification_big_text">Exclude <xliff:g example="microG Services">%1$s</xliff:g> din optimizările bateriei sau modifică setările de notificare pentru a ascunde această notificare.</string>
+    <string name="foreground_service_notification_big_text">Exclude <xliff:g example="MicroG Services">%1$s</xliff:g> din optimizările bateriei sau modifică setările de notificare pentru a ascunde această notificare.</string>
     <string name="list_item_see_all">Arată tot</string>
     <string name="service_status_disabled_short">Oprit</string>
     <string name="list_no_item_none">Nimic</string>

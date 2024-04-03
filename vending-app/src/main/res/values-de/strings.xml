@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">microG Companion</string>
-    <string name="toast_installed">microG Companion kann nicht eigenständig verwendet werden. Öffne stattdessen die microG Services-Einstellungen.</string>
-    <string name="toast_not_installed">microG Companion kann nicht eigenständig verwendet werden. Bitte installiere microG Services, um microG zu nutzen.</string>
+    <string name="app_name">MicroG Companion</string>
+    <string name="toast_installed">MicroG Companion kann nicht eigenständig verwendet werden. Öffne stattdessen die MicroG Services-Einstellungen.</string>
+    <string name="toast_not_installed">MicroG Companion kann nicht eigenständig verwendet werden. Bitte installiere MicroG Services, um MicroG zu nutzen.</string>
     <string name="pay_disabled">Bezahlung derzeit nicht möglich</string>
     <string name="confirm_purchase">Kauf bestätigen</string>
     <string name="error_passwd">Das eingegebene Passwort ist falsch.</string>

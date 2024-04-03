@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ SPDX-FileCopyrightText: 2017 microG Project Team
+  ~ SPDX-FileCopyrightText: 2017 MicroG Project Team
   ~ SPDX-License-Identifier: Apache-2.0
   --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">microG Services</string>
-    <string name="gms_settings_name">Настройки microG</string>
-    <string name="gms_settings_summary">Настройка сервисов microG</string>
+    <string name="gms_app_name">GMSCore Services</string>
+    <string name="gms_settings_name">Настройки GMSCore</string>
+    <string name="gms_settings_summary">Настройка сервисов GMSCore</string>
     <string name="just_a_sec">Пожалуйста, подождите…</string>
     <string name="google_account_label">Google</string>
     <string name="ask_permission_tos">Продолжая, вы позволяете этому приложению и Google использовать свою информацию в соответствии с их соответствующими условиями предоставления услуг и политиками конфиденциальности.</string>
@@ -15,7 +15,7 @@
     <string name="sorry">Извините…</string>
     <string name="auth_before_connect">"Приложение на вашем устройстве пытается войти в учетную запись Google.
 
-Если это было намеренно, нажмите кнопку <b>Войти</b>, чтобы подключиться к странице входа в Google, если нет, нажмите <b>Отмена</b>, чтобы вернуться к приложению, которое вызвало это диалоговое окно."</string>
+Если это было намеренно, нажмите кнопку <b>Войти</b> или <b>Huawei</b>, чтобы подключиться к странице входа в Google, если нет, нажмите <b>Отмена</b>, чтобы вернуться к приложению, которое вызвало это диалоговое окно."</string>
     <string name="auth_sign_in">Войти</string>
     <string name="auth_connecting">"Ваше устройство устанавливает соединение с серверами Google для входа в систему.
 
@@ -38,8 +38,8 @@
     <string name="perm_c2dm_send_label">отправлять C2DM сообщения другим приложениям</string>
     <string name="perm_gtalk_svc_label">обмениваться сообщениями и получать уведомления о синхронизации от серверов Google</string>
     <string name="perm_extended_access_label">Расширенный доступ к сервисам Google</string>
-    <string name="perm_provision_label">подготовка сервисов microG</string>
-    <string name="perm_provision_description">Позволить приложению настраивать сервисы microG без вмешательства пользователя</string>
+    <string name="perm_provision_label">подготовка сервисов GMSCore</string>
+    <string name="perm_provision_description">Позволить приложению настраивать сервисы GMSCore без вмешательства пользователя</string>
     <string name="service_name_checkin">Регистрация устройства в Google</string>
     <string name="service_name_mcs">Облачный обмен сообщениями</string>
     <string name="service_name_snet">Google SafetyNet</string>
@@ -51,7 +51,7 @@
     <string name="place_picker_select_title">Выберите это месторасположение</string>
     <string name="place_picker_nearby_places">Ближайшие места</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
-    <string name="lacking_permission_toast">microG Services: Отсутствует разрешение для <xliff:g example="have full network acccess">%1$s</xliff:g></string>
+    <string name="lacking_permission_toast">GMSCore Services: Отсутствует разрешение для <xliff:g example="have full network acccess">%1$s</xliff:g></string>
     <string name="network_type_mobile">Мобильная сеть</string>
     <string name="network_type_wifi">Wi-Fi</string>
     <string name="network_type_roaming">Роуминг</string>
@@ -62,7 +62,7 @@
     <string name="self_check_cat_gms_packages">Установленные пакеты</string>
     <string name="self_check_cat_system">Система</string>
     <string name="self_check_name_fake_sig_perm">Система поддерживает подмену подписи:</string>
-    <string name="self_check_resolution_fake_sig_perm">Ваша прошивка не имеет нативной поддержки подмены подписи. Вы можете использовать Xposed или другие методы, чтобы активировать подмену подписи. Пожалуйста, ознакомьтесь с документацией, какая прошивка поддерживает подмену подписи и как использовать microG в прошивке, которая не поддерживает.</string>
+    <string name="self_check_resolution_fake_sig_perm">Ваша прошивка не имеет нативной поддержки подмены подписи. Вы можете использовать Xposed или другие методы, чтобы активировать подмену подписи. Пожалуйста, ознакомьтесь с документацией, какая прошивка поддерживает подмену подписи и как использовать GMSCore в прошивке, которая не поддерживает.</string>
     <string name="self_check_name_perm_granted">Система разрешает подмену подписи:</string>
     <string name="self_check_resolution_perm_granted">Ваша прошивка поддерживает подмену подписи, но требует дополнительных действий для ее активации. Пожалуйста, ознакомьтесь с документацией, где описано что нужно сделать.</string>
     <string name="self_check_name_system_spoofs">Система подменяет подписи:</string>
@@ -86,7 +86,7 @@
     <string name="prefcat_services">Сервисы</string>
     <string name="prefcat_test">Тест</string>
     <string name="cond_gcm_bat_title">Активна оптимизация энергопотребления</string>
-    <string name="cond_gcm_bat_summary">Вы включили облачный обмен сообщениями, но у вас активна оптимизация энергопотребления для microG Services. Чтобы получать push-уведомления вам необходимо разрешить приложению работать в фоновом режиме.</string>
+    <string name="cond_gcm_bat_summary">Вы включили облачный обмен сообщениями, но у вас активна оптимизация энергопотребления для GMSCore Services. Чтобы получать push-уведомления вам необходимо разрешить приложению работать в фоновом режиме.</string>
     <string name="cond_gcm_bat_action">Разрешить работу в фоне</string>
     <string name="cond_perm_title">Отсутствуют разрешения</string>
     <string name="prefs_account">Настройки аккаунта</string>
@@ -96,7 +96,7 @@
     <string name="pref_auth_trust_google_summary">Если параметр отключен, то у пользователя запрашивается разрешение для авторизации Google. Некоторые приложения не смогут использовать аккаунт Google, если эта возможность отключена.</string>
     <string name="pref_auth_visible_title">Разрешить приложениям находить аккаунты</string>
     <string name="pref_auth_visible_summary">Если включено, все приложения на этом устройстве смогут видеть адреса электронной почты ваших учетных записей Google без предварительного разрешения.</string>
-    <string name="pref_checkin_enable_summary">Регистрирует ваше устройство в сервисах Google и создает уникальный идентификатор. MicroG удаляет все идентифицирующие биты, кроме имени вашего аккаунта Google.</string>
+    <string name="pref_checkin_enable_summary">Регистрирует ваше устройство в сервисах Google и создает уникальный идентификатор. GMSCore удаляет все идентифицирующие биты, кроме имени вашего аккаунта Google.</string>
     <string name="pref_device_registration_android_id">Android ID</string>
     <string name="checkin_not_registered">Не зарегистрировано</string>
     <string name="checkin_last_registration">Последняя регистрация: <xliff:g example="Yesterday, 02:20 PM">%1$s</xliff:g></string>
@@ -113,7 +113,7 @@
     <string name="pref_gcm_confirm_new_apps_title">Подтверждать новые приложения</string>
     <string name="pref_gcm_confirm_new_apps_summary">Спрашивать разрешение перед привязкой новых приложений для получения push-уведомлений</string>
     <string name="pref_gcm_ping_interval">Интервал проверки: <xliff:g example="10 минут">%1$s</xliff:g></string>
-    <string name="pref_about_title">О сервисах microG</string>
+    <string name="pref_about_title">О сервисах GMSCore</string>
     <string name="pref_about_summary">Информация о версии и используемые библиотеки</string>
     <string name="pref_hide_launcher_icon">Скрыть иконку из лаунчера</string>
     <string name="gcm_app_error_unregistering">Не удалось отвязать</string>
@@ -140,7 +140,7 @@
     <string name="prefcat_push_apps_registered_title">Зарегистрированные приложения</string>
     <string name="prefcat_push_apps_unregistered_title">Незарегистрированные приложения</string>
     <string name="prefcat_push_networks_title">Сети для приёма push-уведомлений</string>
-    <string name="safetynet_intro">Google SafetyNet это система сертификации устройства, гарантирующая, что устройство корректно защищено и совместимо с Android CTS. Некоторые приложения используют SafetyNet из соображений безопасности или в качестве предварительной системы защиты от взлома.\n\nmicroG GmsCore содержит свободную реализацию SafetyNet, но официальный сервер требует, чтобы запросы были подписаны с помощью проприетарной системы DroidGuard.</string>
+    <string name="safetynet_intro">Google SafetyNet это система сертификации устройства, гарантирующая, что устройство корректно защищено и совместимо с Android CTS. Некоторые приложения используют SafetyNet из соображений безопасности или в качестве предварительной системы защиты от взлома.\n\nGMSCore GmsCore содержит свободную реализацию SafetyNet, но официальный сервер требует, чтобы запросы были подписаны с помощью проприетарной системы DroidGuard.</string>
     <string name="safetynet_enable_switch">Разрешить проверку статуса устройства</string>
     <string name="pref_safetynet_test_title">Проверка аттестации SafetyNet</string>
     <string name="pref_recaptcha_test_title">Тест ReCAPTCHA</string>
@@ -186,11 +186,11 @@
     <string name="signin_picker_subtitle">чтобы продолжить в <xliff:g example="F-Droid">%1$s</xliff:g></string>
     <string name="signin_confirm_title">Разрешить <xliff:g example="F-Droid">%1$s</xliff:g> войти в аккаунт</string>
     <string name="pref_auth_include_android_id_summary">Когда отключено, запросы аутентификации не будут привязаны к регистрации устройства, что позволяет не аутентифицированным устройствам войти, но это может привести к непредвиденным последствиям.</string>
-    <string name="signin_subtext_sharing">Чтобы продолжить, microG поделится вашим именем, адресом электронной почты, и изображением профиля вашего аккаунта Google с <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
+    <string name="signin_subtext_sharing">Чтобы продолжить, GMSCore поделится вашим именем, адресом электронной почты, и изображением профиля вашего аккаунта Google с <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
     <string name="pref_safetynet_test_cts_failed">Тест CTS не пройден</string>
     <string name="pref_safetynet_test_invalid_json">Неверный JSON</string>
     <string name="pref_vending_licensing_enable_switch">Обрабатывать запросы на проверку лицензий</string>
-    <string name="pref_vending_license_enable_summary">Некоторые приложения требуют подтверждения того, что вы приобрели их в Google Play. По запросу приложения microG может загрузить подтверждение покупки от Google. Если отключено или учетная запись Google не добавлена, запросы на проверку лицензии игнорируются.</string>
+    <string name="pref_vending_license_enable_summary">Некоторые приложения требуют подтверждения того, что вы приобрели их в Google Play. По запросу приложения GMSCore может загрузить подтверждение покупки от Google. Если отключено или учетная запись Google не добавлена, запросы на проверку лицензии игнорируются.</string>
     <string name="feedback_disabled">Отправка отзывов в настоящее время невозможна</string>
     <string name="pref_droidguard_unsupported_summary">Запуск DroidGuard не поддерживаются на этом устройстве. Сервисы SafetyNet могут не работать.</string>
     <string name="pref_safetynet_test_integrity_cts_passed">Тесты целостности и CTS пройдены</string>

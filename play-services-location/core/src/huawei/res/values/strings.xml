@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~ SPDX-FileCopyrightText: 2023 microG Project Team
+  ~ SPDX-FileCopyrightText: 2023 MicroG Project Team
   ~ SPDX-License-Identifier: Apache-2.0
   -->
 
@@ -15,11 +15,11 @@
     <string name="dont_remind_again">Don\'t remind again</string>
 
     <string name="rationale_foreground_permission">
-        Please allow <xliff:g example="microG">%1$s</xliff:g> to access this device\'s location.
+        Please allow <xliff:g example="MicroG">%1$s</xliff:g> to access this device\'s location.
         \nThe permissions are needed to enable location in map features of supporting apps.
     </string>
     <string name="rationale_permission">
-        Please select \"ALLOW ALL THE TIME\" to allow <xliff:g example="microG">%1$s</xliff:g> to access this device\'s location.
+        Please select \"ALLOW ALL THE TIME\" to allow <xliff:g example="MicroG">%1$s</xliff:g> to access this device\'s location.
     </string>
     <string name="rationale_background_permission">
         Please click on the \"Permission\u00A0Manager\" and select \"ALLOW ALL THE TIME\".

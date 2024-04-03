@@ -6,9 +6,9 @@
     <string name="license_notification_ignore">Ігнараваць</string>
     <string name="license_notification_channel_name">Паведамлення ліцэнзій</string>
     <string name="license_notification_channel_description">Паведамляе, калі прыкладанне спрабуе праверыць сваю ліцэнзію, але вы не ўвайшлі ні ў адзін уліковы запіс Google.</string>
-    <string name="app_name">microG Companion</string>
-    <string name="toast_installed">microG Companion не можа выкарыстоўвацца асобна. Адкрываюцца наладкі сэрвісаў microG.</string>
-    <string name="toast_not_installed">microG Companion не можа выкарыстоўвацца асобна. Калі ласка, усталюйце сэрвісы microG каб выкарыстоўваць microG.</string>
+    <string name="app_name">MicroG Companion</string>
+    <string name="toast_installed">MicroG Companion не можа выкарыстоўвацца асобна. Адкрываюцца наладкі сэрвісаў MicroG.</string>
+    <string name="toast_not_installed">MicroG Companion не можа выкарыстоўвацца асобна. Калі ласка, усталюйце сэрвісы MicroG каб выкарыстоўваць MicroG.</string>
     <string name="pay_disabled">Функцыя аплаты недаступная</string>
     <string name="tips_input_passwd">Увядзіце пароль</string>
     <string name="tips_forget_passwd">Забылі пароль?</string>

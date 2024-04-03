@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2013-2017 microG Project Team
+  ~ Copyright (C) 2013-2017 MicroG Project Team
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -14,8 +14,8 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">microG Services</string>
-    <string name="gms_settings_name">microG設定</string>
+    <string name="gms_app_name">MicroG Services</string>
+    <string name="gms_settings_name">MicroG設定</string>
     <string name="just_a_sec">請稍等...</string>
     <string name="google_account_label">Google</string>
     <string name="ask_permission_tos">當您繼續下一步時，代表您同意Google和本程式在遵守服務條款和隱私權政策下使用您的個人資訊。</string>
@@ -51,7 +51,7 @@
     <string name="place_picker_select_title">選擇這個地點</string>
     <string name="place_picker_nearby_places">附近的地點</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
-    <string name="lacking_permission_toast">microG Services: 缺少<xliff:g example="have full network acccess">%1$s</xliff:g>的權限</string>
+    <string name="lacking_permission_toast">MicroG Services: 缺少<xliff:g example="have full network acccess">%1$s</xliff:g>的權限</string>
     <string name="network_type_mobile">行動數據</string>
     <string name="network_type_wifi">Wi-Fi</string>
     <string name="network_type_roaming">漫遊</string>
@@ -62,7 +62,7 @@
     <string name="self_check_cat_gms_packages">已安裝的程式</string>
     <string name="self_check_cat_system">系統</string>
     <string name="self_check_name_fake_sig_perm">系統支援簽名破解： </string>
-    <string name="self_check_resolution_fake_sig_perm">您的原生韌體並不支援簽名破解，但您依舊能用Xposed或是改用其他系統來破解。 請參閱哪些韌體支援簽名破解以及如何在不支援的韌體使用microG的說明文件。</string>
+    <string name="self_check_resolution_fake_sig_perm">您的原生韌體並不支援簽名破解，但您依舊能用Xposed或是改用其他系統來破解。 請參閱哪些韌體支援簽名破解以及如何在不支援的韌體使用MicroG的說明文件。</string>
     <string name="self_check_name_perm_granted">系統允許簽名破解的權限： </string>
     <string name="self_check_resolution_perm_granted">這是韌體支援簽名破解的強力指標，但是仍需要後續動作來啟動破解。 請參閱必須完成步驟的說明文件。</string>
     <string name="self_check_name_system_spoofs">系統破解簽名： </string>
@@ -85,7 +85,7 @@
     <string name="prefcat_services">服務</string>
     <string name="prefcat_test">測試</string>
     <string name="cond_gcm_bat_title">已開啟電池優化</string>
-    <string name="cond_gcm_bat_summary">您已啟用GCM但依舊套用了電池優化在microG Services上。 為了能收到推送通知您應該取消電池優化。</string>
+    <string name="cond_gcm_bat_summary">您已啟用GCM但依舊套用了電池優化在MicroG Services上。 為了能收到推送通知您應該取消電池優化。</string>
     <string name="cond_gcm_bat_action">取消優化</string>
     <string name="cond_perm_title">遺失權限</string>
     <string name="prefs_account">帳號設定</string>
@@ -93,14 +93,14 @@
     <string name="prefs_account_security">登入&amp;安全</string>
     <string name="pref_auth_trust_google_title">允許Google提供程式存取權限</string>
     <string name="pref_auth_trust_google_summary">此功能停用時，使用者將在程式向Google請求驗證前被徵詢。 有些程式可能會因為此功能停用而無法存取Google帳號。</string>
-    <string name="pref_checkin_enable_summary">將手機註冊到Google服務並創建一個唯一的設備識別碼。 除了識別碼，microG還會使用您註冊的Google帳號名。</string>
+    <string name="pref_checkin_enable_summary">將手機註冊到Google服務並創建一個唯一的設備識別碼。 除了識別碼，MicroG還會使用您註冊的Google帳號名。</string>
     <string name="pref_gcm_enable_mcs_summary">GCM是一個廣為第三方應用程式所採用的推播訊息供應者。 必須先註冊為Google設備才能使用。</string>
     <string name="pref_gcm_heartbeat_title">GCM同步週期</string>
     <string name="pref_gcm_heartbeat_summary">系統向Google伺服器同步的週期(秒)。 延長週期將會減少耗電，但可能會造成推送訊息的延遲。
 已不重要，將會在未來的版本中被取代。</string>
     <string name="pref_gcm_apps_title">使用GCM的程式</string>
     <string name="pref_gcm_apps_summary">表所列為現在註冊使用GCM的程式。</string>
-    <string name="pref_about_title">關於microG Services</string>
+    <string name="pref_about_title">關於MicroG Services</string>
     <string name="pref_about_summary">版本資訊和使用的程式庫</string>
     <string name="gcm_app_error_unregistering">註冊錯誤</string>
     <string name="gcm_app_not_installed_anymore">已移除</string>
@@ -118,7 +118,7 @@
     <string name="gcm_messages_counter">已接收訊息：<xliff:g example="123">%1$d</xliff:g>個（<xliff:g example="12345">%2$d</xliff:g>位元組〉</string>
     <string name="safetynet_intro">Google SafetyNet是一個確認手機被確實保護和相容於Android CTS的驗證系統。一些程式基於安全因素使用SafetyNet，一些則是以必須通過的形式來防止篡改。
     	
-    	microG GmsCore包含了SafetyNet的自由執行，但官方伺服器需要SafetyNet請求經非自由軟體性質的DroidGuard系統簽名。</string>
+    	MicroG GmsCore包含了SafetyNet的自由執行，但官方伺服器需要SafetyNet請求經非自由軟體性質的DroidGuard系統簽名。</string>
     <string name="pref_safetynet_test_title">測試SafetyNet驗證</string>
     <string name="pref_vending_billing_enable_switch">啟用後一些應用程式可以透過Google 應用程式內購買服務完成應用程式內服務購買訂閱</string>
 </resources>

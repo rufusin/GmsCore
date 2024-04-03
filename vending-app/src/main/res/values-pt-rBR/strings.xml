@@ -6,9 +6,9 @@
     <string name="license_notification_body">Se um app estiver com mal comportamento, entre em uma conta Google aonde você comprou o app.</string>
     <string name="license_notification_sign_in">Fazer login</string>
     <string name="license_notification_ignore">Ignorar</string>
-    <string name="app_name">Companheiro do microG</string>
-    <string name="toast_installed">O companheiro do microG não pode ser utilizado sozinho. Abrindo configurações dos serviços microG.</string>
-    <string name="toast_not_installed">O companheiro do microG não pode ser utilizado sozinho. Por favor instale serviços microG para utilizar o microG.</string>
+    <string name="app_name">Companheiro do MicroG</string>
+    <string name="toast_installed">O companheiro do MicroG não pode ser utilizado sozinho. Abrindo configurações dos serviços MicroG.</string>
+    <string name="toast_not_installed">O companheiro do MicroG não pode ser utilizado sozinho. Por favor instale serviços MicroG para utilizar o MicroG.</string>
     <string name="pay_disabled">Pagar não é possível nesse momento</string>
     <string name="error_passwd">A senha que você inseriu está incorreta.</string>
     <string name="tips_input_passwd">Insira sua senha</string>

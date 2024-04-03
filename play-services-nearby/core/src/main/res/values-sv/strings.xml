@@ -32,7 +32,7 @@
     <string name="pref_exposure_app_api_usage_summary_line"><xliff:g example="12">%1$d</xliff:g> anrop till <xliff:g example="provideDiagnosisKeys">%2$s</xliff:g></string>
     <string name="pref_exposure_enable_info_summary">För att aktivera exponeringsmeddelanden öppnar du någon app som stödjer det.</string>
     <string name="pref_exposure_rpi_delete_all_summary">Ta bort alla insamlade ID:n</string>
-    <string name="exposure_confirm_permission_description"><xliff:g example="microG Services">%1$s</xliff:g> behöver ytterligare behörigheter.</string>
+    <string name="exposure_confirm_permission_description"><xliff:g example="MicroG Services">%1$s</xliff:g> behöver ytterligare behörigheter.</string>
     <string name="service_name_exposure">Exponeringsmeddelanden</string>
     <string name="pref_exposure_app_report_entry_distance_close">närliggande exponering</string>
     <string name="exposure_confirm_permission_button">Bevilja</string>

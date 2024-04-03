@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ SPDX-FileCopyrightText: 2017 microG Project Team
+  ~ SPDX-FileCopyrightText: 2017 MicroG Project Team
   ~ SPDX-License-Identifier: Apache-2.0
   --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">microG Services</string>
-    <string name="gms_settings_name">Налады microG</string>
-    <string name="gms_settings_summary">Налады сэрвісаў microG</string>
+    <string name="gms_app_name">MicroG Services</string>
+    <string name="gms_settings_name">Налады MicroG</string>
+    <string name="gms_settings_summary">Налады сэрвісаў MicroG</string>
     <string name="just_a_sec">Калі ласка, пачакайце…</string>
     <string name="google_account_label">Google</string>
     <string name="ask_permission_tos">Працягваючы, вы дазваляеце гэтаму прыкладанню і Google выкарыстоўваць сваю інфармацыю ў адпаведнасці з іх ўмовамі прадастаўлення паслуг і палітыкамі прыватнасці.</string>
@@ -38,8 +38,8 @@
     <string name="perm_c2dm_send_label">адпраўляць C2DM паведамленні іншым прыкладанням</string>
     <string name="perm_gtalk_svc_label">абменьвацца паведамленнямі і атрымліваць апавяшчэнні аб сінхранізацыі ад сервераў Google</string>
     <string name="perm_extended_access_label">Пашыраны доступ да сэрвісаў Google</string>
-    <string name="perm_provision_label">падрыхтоўка сэрвісаў microG</string>
-    <string name="perm_provision_description">Дазволіць прыкладанню настраіваць сэрвісы microG без ўмяшання карыстальніка</string>
+    <string name="perm_provision_label">падрыхтоўка сэрвісаў MicroG</string>
+    <string name="perm_provision_description">Дазволіць прыкладанню настраіваць сэрвісы MicroG без ўмяшання карыстальніка</string>
     <string name="service_name_checkin">Рэгістрацыя прылады ў Google</string>
     <string name="service_name_mcs">Воблачны абмен паведамленнямі</string>
     <string name="service_name_snet">Google SafetyNet</string>
@@ -51,7 +51,7 @@
     <string name="place_picker_select_title">Выберыце гэта месцазнаходжанне</string>
     <string name="place_picker_nearby_places">Бліжэйшыя месцы</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
-    <string name="lacking_permission_toast">microG Services: Адсутнічае дазвол для <xliff:g example="have full network acccess">%1$s</xliff:g></string>
+    <string name="lacking_permission_toast">MicroG Services: Адсутнічае дазвол для <xliff:g example="have full network acccess">%1$s</xliff:g></string>
     <string name="network_type_mobile">Мабільная сетка</string>
     <string name="network_type_wifi">Wi-Fi</string>
     <string name="network_type_roaming">Роўмінг</string>
@@ -62,7 +62,7 @@
     <string name="self_check_cat_gms_packages">Устаноўленыя пакеты</string>
     <string name="self_check_cat_system">Сістэма</string>
     <string name="self_check_name_fake_sig_perm">Сістэма падтрымлівае падмену подпісу:</string>
-    <string name="self_check_resolution_fake_sig_perm">Ваша прашыўка не мае натыўнай падтрымкі падмены подпісу. Вы можаце выкарыстаць Xposed або іншыя метады, каб актываваць падмену подпісу. Калі ласка, азнаёмцеся з дакументацыяй, якая прашыўка падтрымлівае падмену подпісу і як выкарыстоўваць microG ў прашыўцы, якая не падтрымлівае.</string>
+    <string name="self_check_resolution_fake_sig_perm">Ваша прашыўка не мае натыўнай падтрымкі падмены подпісу. Вы можаце выкарыстаць Xposed або іншыя метады, каб актываваць падмену подпісу. Калі ласка, азнаёмцеся з дакументацыяй, якая прашыўка падтрымлівае падмену подпісу і як выкарыстоўваць MicroG ў прашыўцы, якая не падтрымлівае.</string>
     <string name="self_check_name_perm_granted">Сістэма дазваляе падмену подпісу:</string>
     <string name="self_check_resolution_perm_granted">Ваша прашыўка падтрымлівае падмену подпісу, але патрабуе дадатковых дзеянняў для яе актывацыі. Калі ласка, азнаёмцеся з дакументацыяй, дзе апісана што трэба зрабіць.</string>
     <string name="self_check_name_system_spoofs">Сістэма падмяняе подпісы:</string>
@@ -86,7 +86,7 @@
     <string name="prefcat_services">Сэрвісы</string>
     <string name="prefcat_test">Тэст</string>
     <string name="cond_gcm_bat_title">Актыўная аптымізацыя энергаспажывання</string>
-    <string name="cond_gcm_bat_summary">Вы ўключылі воблачны абмен паведамленнямі, але ў вас актыўная аптымізацыя энергаспажывання для microG Services. Каб атрымліваць push-паведамленні вам неабходна дазволіць прыкладанню працаваць у фонавым рэжыме.</string>
+    <string name="cond_gcm_bat_summary">Вы ўключылі воблачны абмен паведамленнямі, але ў вас актыўная аптымізацыя энергаспажывання для MicroG Services. Каб атрымліваць push-паведамленні вам неабходна дазволіць прыкладанню працаваць у фонавым рэжыме.</string>
     <string name="cond_gcm_bat_action">Дазволіць работу ў фоне</string>
     <string name="cond_perm_title">Адсутнічаюць дазволы</string>
     <string name="prefs_account">Настройкі акаўнта</string>
@@ -113,7 +113,7 @@
     <string name="pref_gcm_confirm_new_apps_title">Пацверджваць новыя прыкладанні</string>
     <string name="pref_gcm_confirm_new_apps_summary">Пытаць дазвол перад прывязкай новых прыкладанняў для атрымання push-паведамленняў</string>
     <string name="pref_gcm_ping_interval">Інтэрвал праверкі: <xliff:g example="10 минут">%1$s</xliff:g></string>
-    <string name="pref_about_title">Аб сэрвісах microG</string>
+    <string name="pref_about_title">Аб сэрвісах MicroG</string>
     <string name="pref_about_summary">Інфармацыя аб версіі і выкарыстоўваныя бібліятэкі</string>
     <string name="gcm_app_error_unregistering">Не атрымалася адвязаць</string>
     <string name="gcm_app_not_installed_anymore">Прыкладанне больш не ўсталявана</string>
@@ -139,7 +139,7 @@
     <string name="prefcat_push_apps_registered_title">Зарэгістраваныя прыкладанні</string>
     <string name="prefcat_push_apps_unregistered_title">Незарэгістраваныя прыкладанні</string>
     <string name="prefcat_push_networks_title">Сеткі для прыёму push-паведамленняў</string>
-    <string name="safetynet_intro">Google SafetyNet гэта сістэма сертыфікацыі прылады, якая гарантуе, што прылада карэктна абаронена і сумяшчальна з Android CTS. Пэўныя праграмы выкарыстоўваюць SafetyNet з меркаванняў бяспекі або ў якасці папярэдняй сістэмы абароны ад узлому.\n\nmicroG GmsCore змяшчае свабодную рэалізацыю SafetyNet, але афіцыйны сервер патрабуе, каб запыты былі падпісаны з дапамогай прапрыетарнай сістэмы DroidGuard.</string>
+    <string name="safetynet_intro">Google SafetyNet гэта сістэма сертыфікацыі прылады, якая гарантуе, што прылада карэктна абаронена і сумяшчальна з Android CTS. Пэўныя праграмы выкарыстоўваюць SafetyNet з меркаванняў бяспекі або ў якасці папярэдняй сістэмы абароны ад узлому.\n\nMicroG GmsCore змяшчае свабодную рэалізацыю SafetyNet, але афіцыйны сервер патрабуе, каб запыты былі падпісаны з дапамогай прапрыетарнай сістэмы DroidGuard.</string>
     <string name="safetynet_enable_switch">Дазволіць праверку статусу прылады</string>
     <string name="pref_safetynet_test_title">Праверка атэстацыі SafetyNet</string>
     <string name="pref_recaptcha_test_title">Тэст ReCAPTCHA</string>
@@ -188,11 +188,11 @@
     <string name="push_notifications_summary_values_minutes">%s хвілін</string>
     <string name="pref_vending_summary_licensing_off">Апрацоўка ліцэнзій Выкл.</string>
     <string name="pref_vending_summary_licensing_on">Апрацоўка ліцэнзій Укл.</string>
-    <string name="pref_vending_license_enable_summary">Некаторыя прыкладанні патрабуюць пацверджання таго, што вы набылі іх у Google Play. Па запыце прыкладання microG можа загрузіць пацверджанне пакупкі ад Google. Калі адключана або ўліковы запіс Google не дададзены, запыты на праверку ліцэнзіі ігнаруюцца.</string>
+    <string name="pref_vending_license_enable_summary">Некаторыя прыкладанні патрабуюць пацверджання таго, што вы набылі іх у Google Play. Па запыце прыкладання MicroG можа загрузіць пацверджанне пакупкі ад Google. Калі адключана або ўліковы запіс Google не дададзены, запыты на праверку ліцэнзіі ігнаруюцца.</string>
     <string name="signin_confirm_title">Дазволіць <xliff:g example="F-Droid">%1$s</xliff:g> увайсці ў акаўнт</string>
     <string name="feedback_disabled">Адпраўка водгукаў у цяперашні час немагчымая</string>
     <string name="signin_picker_subtitle">каб працягнуць у <xliff:g example="F-Droid">%1$s</xliff:g></string>
-    <string name="signin_subtext_sharing">Каб працягнуць, microG падзеліцца вашым імем, адрасам электроннай пошты, і выявай профіля вашага акаўнта Google з <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
+    <string name="signin_subtext_sharing">Каб працягнуць, MicroG падзеліцца вашым імем, адрасам электроннай пошты, і выявай профіля вашага акаўнта Google з <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
     <string name="pref_auth_include_android_id_summary">Калі адключана, запыты аўтэнтыфікацыі не будуць прывязаны да рэгістрацыі прылады, што дазваляе не аўтэнтыфікаваным прыладам увайсці, але гэта можа прывесці да непрадбачаных наступстваў.</string>
     <string name="pref_safetynet_recent_uses">Нядаўнія выкарыстання</string>
     <string name="pref_safetynet_recent_attestation_summary">Атэстацыя: %s</string>

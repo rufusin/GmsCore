@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2013-2017 microG Project Team
+  ~ Copyright (C) 2013-2017 MicroG Project Team
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="gms_app_name">microG Services</string>
-    <string name="gms_settings_name">Impostazioni di microG</string>
-    <string name="gms_settings_summary">Configurazione di microG</string>
+    <string name="gms_app_name">MicroG Services</string>
+    <string name="gms_settings_name">Impostazioni di MicroG</string>
+    <string name="gms_settings_summary">Configurazione di MicroG</string>
     <string name="just_a_sec">Giusto un secondo…</string>
     <string name="google_account_label">Google</string>
     <string name="ask_permission_tos">Continuando autorizzi questa applicazione e Google a usare le tue informazioni in accordo con i rispettivi termini di servizio e politiche di riservatezza.</string>
@@ -41,8 +41,8 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="perm_c2dm_send_label">invio di messaggi C2DM ad altre applicazioni</string>
     <string name="perm_gtalk_svc_label">scambio di messaggi e ricezione di notifiche di sincronizzazione dai server Google</string>
     <string name="perm_extended_access_label">Accesso esteso ai servizi Google</string>
-    <string name="perm_provision_label">configurazione dei servizi microG</string>
-    <string name="perm_provision_description">Permette all\'applicazione di configurare i servizi microG senza l\'interazione dell\'utente</string>
+    <string name="perm_provision_label">configurazione dei servizi MicroG</string>
+    <string name="perm_provision_description">Permette all\'applicazione di configurare i servizi MicroG senza l\'interazione dell\'utente</string>
     <string name="service_name_checkin">Registrazione del dispositivo</string>
     <string name="service_name_mcs">Messaggistica cloud</string>
     <string name="service_name_snet">SafetyNet</string>
@@ -54,7 +54,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="place_picker_select_title">Seleziona questo luogo</string>
     <string name="place_picker_nearby_places">Luoghi vicini</string>
     <string name="place_picker_location_lat_lng">(%1$.7f, %2$.7f)</string>
-    <string name="lacking_permission_toast">microG: Il permesso di <xliff:g example="have full network acccess">%1$s</xliff:g> non è stato concesso</string>
+    <string name="lacking_permission_toast">MicroG: Il permesso di <xliff:g example="have full network acccess">%1$s</xliff:g> non è stato concesso</string>
     <string name="network_type_mobile">Reti mobili</string>
     <string name="network_type_wifi">Wi-Fi</string>
     <string name="network_type_roaming">Roaming</string>
@@ -64,7 +64,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="self_check_cat_gms_packages">Pacchetti installati</string>
     <string name="self_check_cat_system">Sistema</string>
     <string name="self_check_name_fake_sig_perm">Il sistema supporta la falsificazione della firma: </string>
-    <string name="self_check_resolution_fake_sig_perm">La tua ROM non dispone del supporto nativo per la falsificazione della firma. Puoi comunque utilizzare Xposed o altri sistemi per garantire la falsificazione della firma. Consulta la documentazione per conoscere quali ROM supportano questa funzionalità e come utilizzare microG sulle ROM che non la supportano.</string>
+    <string name="self_check_resolution_fake_sig_perm">La tua ROM non dispone del supporto nativo per la falsificazione della firma. Puoi comunque utilizzare Xposed o altri sistemi per garantire la falsificazione della firma. Consulta la documentazione per conoscere quali ROM supportano questa funzionalità e come utilizzare MicroG sulle ROM che non la supportano.</string>
     <string name="self_check_name_perm_granted">Il sistema concede l\'autorizzazione a falsificare la firma: </string>
     <string name="self_check_resolution_perm_granted">Ciò indica che la ROM attuale supporta la falsificazione della firma, ma richiede azioni ulteriori per attivarla. Consulta la documentazione per conoscere quali operazioni siano necessarie.</string>
     <string name="self_check_name_system_spoofs">Il sistema falsifica la firma: </string>
@@ -87,7 +87,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="prefcat_services">Servizi</string>
     <string name="prefcat_test">Sperimentale</string>
     <string name="cond_gcm_bat_title">Ottimizzazioni della batteria abilitate</string>
-    <string name="cond_gcm_bat_summary">Hai abilitato il servizio di messaggistica cloud, tuttavia le ottimizzazioni della batteria sono abilitate per microG. Al fine di garantire la ricezione delle notifiche push, dovresti selezionare l\'opzione per ignorare le ottimizzazioni della batteria.</string>
+    <string name="cond_gcm_bat_summary">Hai abilitato il servizio di messaggistica cloud, tuttavia le ottimizzazioni della batteria sono abilitate per MicroG. Al fine di garantire la ricezione delle notifiche push, dovresti selezionare l\'opzione per ignorare le ottimizzazioni della batteria.</string>
     <string name="cond_gcm_bat_action">Ignora ottimizzazioni</string>
     <string name="cond_perm_title">Permesso mancante</string>
     <string name="prefs_account">Preferenze dell\'account</string>
@@ -97,7 +97,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="pref_auth_trust_google_summary">Quando questa opzione è disabilitata, viene interpellato l\'utente prima che ogni richiesta di autorizzazione da parte delle applicazioni venga inviata a Google. Alcune applicazioni potrebbero fallire nell\'utilizzare l\'account Google se questa opzione è disabilitata.</string>
     <string name="pref_auth_visible_title">Consenti alle applicazioni di visualizzare gli account</string>
     <string name="pref_auth_visible_summary">Quando questa opzione è abilitata, tutte le applicazioni su questo dispositivo saranno in grado di visualizzare gli indirizzi di posta elettronica degli account Google senza autorizzazione preventiva.</string>
-    <string name="pref_checkin_enable_summary">Registra il tuo dispositivo ai servizi Google e crea un identificativo univoco. microG rimuove dai dati di registrazione alcune parti funzionali all\'identificazione, oltre al nome dell\'account Google.</string>
+    <string name="pref_checkin_enable_summary">Registra il tuo dispositivo ai servizi Google e crea un identificativo univoco. MicroG rimuove dai dati di registrazione alcune parti funzionali all\'identificazione, oltre al nome dell\'account Google.</string>
     <string name="pref_device_registration_android_id">Identificativo univoco Android</string>
     <string name="checkin_not_registered">Non registrato</string>
     <string name="checkin_last_registration">Ultima registrazione: <xliff:g example="Yesterday, 02:20 PM">%1$s</xliff:g></string>
@@ -114,7 +114,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="pref_gcm_confirm_new_apps_title">Conferma le nuove applicazioni</string>
     <string name="pref_gcm_confirm_new_apps_summary">Chiedi conferma all\'utente prima di registrare una nuova applicazione per le notifiche push</string>
     <string name="pref_gcm_ping_interval">Intervallo di ping: <xliff:g example="10 minutes">%1$s</xliff:g></string>
-    <string name="pref_about_title">A proposito di microG</string>
+    <string name="pref_about_title">A proposito di MicroG</string>
     <string name="pref_about_summary">Informazioni sulla versione e sulle librerie utilizzate</string>
     <string name="gcm_app_error_unregistering">Errore durante l\'annullamento della registrazione</string>
     <string name="gcm_app_not_installed_anymore">Non più installata</string>
@@ -140,7 +140,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="prefcat_push_apps_registered_title">Applicazioni registrate</string>
     <string name="prefcat_push_apps_unregistered_title">Applicazioni non registrate</string>
     <string name="prefcat_push_networks_title">Reti da utilizzare per le notifiche push</string>
-    <string name="safetynet_intro">SafetyNet di Google è un sistema di certificazione del dispositivo che ne garantisce la sicurezza e la compatibilità con Android CTS. Alcune applicazioni utilizzano SafetyNet per ragioni di sicurezza o come prerequisito per la protezione da manomissione.\n\nUn\'implementazione libera di SafetyNet è contenuta in microG, tuttavia i server ufficiali richiedono che le richieste SafetyNet siano firmate utilizzando il sistema proprietario DroidGuard.</string>
+    <string name="safetynet_intro">SafetyNet di Google è un sistema di certificazione del dispositivo che ne garantisce la sicurezza e la compatibilità con Android CTS. Alcune applicazioni utilizzano SafetyNet per ragioni di sicurezza o come prerequisito per la protezione da manomissione.\n\nUn\'implementazione libera di SafetyNet è contenuta in MicroG, tuttavia i server ufficiali richiedono che le richieste SafetyNet siano firmate utilizzando il sistema proprietario DroidGuard.</string>
     <string name="safetynet_enable_switch">Permetti l\'attestazione del dispositivo</string>
     <string name="pref_safetynet_test_title">Prova l\'attestazione di SafetyNet</string>
     <string name="pref_recaptcha_test_title">Prova ReCAPTCHA</string>
@@ -200,7 +200,7 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="signin_picker_add_account_label">Aggiungi un altro account</string>
     <string name="signin_confirm_button_text">Consenti e condividi</string>
     <string name="signin_subtext_policy">Prima di usare quest\'app, consulta la sua %1$s e i %2$s.</string>
-    <string name="signin_subtext_sharing">Per continuare, microG condividerà il nome, l\'indirizzo email e l\'immagine del profilo del tuo account Google con <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
+    <string name="signin_subtext_sharing">Per continuare, MicroG condividerà il nome, l\'indirizzo email e l\'immagine del profilo del tuo account Google con <xliff:g example="F-Droid">%1$s</xliff:g>.</string>
     <string name="pref_auth_include_android_id_title">Autenticazione con registrazione del dispositivo</string>
     <string name="signin_subtext_policy_terms">termini di servizio</string>
     <string name="pref_vending_summary_licensing_on">Verifica delle licenze abilitata</string>
@@ -208,5 +208,5 @@ Questa operazione può richiedere alcuni secondi."</string>
     <string name="pref_vending_licensing_enable_switch">Rispondi alle richieste di verifica delle licenze</string>
     <string name="feedback_disabled">Non è possibile inviare feedback al momento</string>
     <string name="pref_vending_summary_licensing_off">Verifica delle licenze disabilitata</string>
-    <string name="pref_vending_license_enable_summary">Alcune app richiedono la verifica dell\'acquisto da Google Play. Quando un\'app lo richiede, microG può scaricare una prova dell\'acquisto da Google. Se l\'opzione è disabilitata, o se non è stato aggiunto nessun account Google, le richieste di verifica delle licenze vengono ignorate.</string>
+    <string name="pref_vending_license_enable_summary">Alcune app richiedono la verifica dell\'acquisto da Google Play. Quando un\'app lo richiede, MicroG può scaricare una prova dell\'acquisto da Google. Se l\'opzione è disabilitata, o se non è stato aggiunto nessun account Google, le richieste di verifica delle licenze vengono ignorate.</string>
 </resources>

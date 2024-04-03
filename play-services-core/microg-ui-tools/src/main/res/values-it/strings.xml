@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2013-2017 microG Project Team
+  ~ Copyright (C) 2013-2017 MicroG Project Team
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
   -->
 
 <resources>
-    <string name="lib_name">Strumenti interfaccia utente di microG</string>
-    <string name="lib_license">Licenza Apache 2.0, team di microG</string>
+    <string name="lib_name">Strumenti interfaccia utente di MicroG</string>
+    <string name="lib_license">Licenza Apache 2.0, team di MicroG</string>
 
     <string name="about_version_str">Versione %1$s</string>
     <string name="about_name_version_str">%1$s %2$s</string>
@@ -26,13 +26,13 @@
     <string name="prefcat_setup">Configurazione</string>
 
     <string name="self_check_title">Controllo dei problemi</string>
-    <string name="self_check_desc">Verifica se il sistema è correttamente configurato per utilizzare microG.</string>
+    <string name="self_check_desc">Verifica se il sistema è correttamente configurato per utilizzare MicroG.</string>
 
     <string name="self_check_cat_permissions">Autorizzazioni concesse</string>
     <string name="self_check_name_permission">%1$s:</string>
     <string name="self_check_resolution_permission">Tocca qui per concedere l\'autorizzazione. Negare l\'autorizzazione può comportare il funzionamento anomalo di altre applicazioni.</string>
 
-    <string name="about_root_title">microG UI Demo</string>
+    <string name="about_root_title">MicroG UI Demo</string>
     <string name="about_root_summary">Riepilogo</string>
     <string name="about_root_version">Versione v0.1.0</string>
     <string name="about_root_libraries">Librerie incluse</string>
